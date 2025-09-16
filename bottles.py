@@ -13,9 +13,3 @@ while count > 0:
         print(f"{count} bottles of beer")
     print("Take one down, pass it around")
     count -= 1
-    if count == 1:
-        print("1 bottle of beer on the wall")
-    elif count == 0:
-        print("no more bottles of beer on the wall")
-    else:
-        print(f"{count} bottles of beer on the wall")
